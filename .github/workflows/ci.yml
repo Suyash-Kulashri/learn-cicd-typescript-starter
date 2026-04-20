@@ -23,6 +23,3 @@ jobs:
 
       - name: Run tests
         run: npm run test
-
-      - name: Break the build
-        run: exit 1
