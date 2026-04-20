@@ -45,3 +45,6 @@ jobs:
 
       - name: Run lint checks
         run: npm run lint
+      
+      - name: Check Linting
+        run: npm run lint -- --max-warnings=0
